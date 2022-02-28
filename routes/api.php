@@ -18,10 +18,24 @@ use Illuminate\Support\Facades\Route;
 |
 */
 // upcoming tasks api
+    //get upcoming tasks
 Route::get('/upcoming',function(){
     $upcoming = Upcoming::all();
     return upcomingResource::collection($upcoming);
 });
+
+// post upcoming task
+Route::post('/upcoming
+',function(Request $req){
+    return Today::create([   
+        'taskId'=>$req->taskId,
+        'title'=>$req->title,
+        'waiting'=>$req->waiting,
+        // 'completed'=>$req->completed,
+        // 'approved'=>$req->approved
+    ]);
+});
+
 // today task api
 Route::get('/today',function(){
     $today = Today::all();
