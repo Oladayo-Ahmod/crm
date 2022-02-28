@@ -7,7 +7,7 @@
 <script>
 import Sidebar from './Sidebar'
 export default {
-    name : "main",
+    name : "MainContent",
     components : {
         Sidebar
     }

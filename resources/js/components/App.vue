@@ -1,13 +1,13 @@
 <template>
   <!-- <body-component></body-component> -->
-  <Main />
+  <MainContent />
 </template>
 
 <script>
-import Main from './Body'
+import MainContent from './Body'
 export default {
     components : {
-        Main,
+        MainContent,
     }
 }
 </script>
