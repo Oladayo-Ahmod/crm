@@ -9,7 +9,7 @@
               <form action="" class="form-group sidebar-form">
             <div class="input-group mb-3">
               <div class="input-group-prepend">
-                <span class="input-group-text text-white" id="basic-addon1">@</span>
+                <span class="input-group-text text-white" id="basic-addon1"><i class="fa fa-search" aria-hidden="true"></i></span> 
               </div>
               <input type="text" class="form-control text-white" placeholder="search your project or task" aria-label="Username" aria-describedby="basic-addon1">
             </div>

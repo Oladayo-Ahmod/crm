@@ -28713,7 +28713,12 @@ var staticRenderFns = [
                           staticClass: "input-group-text text-white",
                           attrs: { id: "basic-addon1" },
                         },
-                        [_vm._v("@")]
+                        [
+                          _c("i", {
+                            staticClass: "fa fa-search",
+                            attrs: { "aria-hidden": "true" },
+                          }),
+                        ]
                       ),
                     ]),
                     _vm._v(" "),
