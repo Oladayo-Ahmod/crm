@@ -5366,6 +5366,18 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "Sidebar"
 });
@@ -10514,7 +10526,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.container[data-v-81fbb27e]{\r\n  position: relative;\r\n  top : 50px;\n}\n.first-project[data-v-81fbb27e]{\r\n  background-color:#0026FF;\r\n  border-radius: 10px;\n}\n.second-project[data-v-81fbb27e]{\r\n  background-color:#FF3250;\r\n  border-radius: 10px;\n}\n.third-project[data-v-81fbb27e]{\r\n  /* background-color:#FFBB00; */\r\n  border-radius: 10px;\n}\n.intro small[data-v-81fbb27e]{\r\n    position: relative;\r\n    bottom: -25%;\r\n    font-family: auto;\n}\nh3[data-v-81fbb27e]{\r\n  font-family: 'Courier New', Courier, monospace;\n}\r\n\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.container[data-v-81fbb27e]{\r\n  position: relative;\r\n  top : 50px;\n}\n.row .col-md-3[data-v-81fbb27e]{\r\n  cursor: pointer;\n}\n.sidebar-form[data-v-81fbb27e]{\r\n  position: relative;\r\n  left: -28px;\n}\n.first-project[data-v-81fbb27e]{\r\n  background-color:#0026FF;\r\n  border-radius: 10px;\n}\n.second-project[data-v-81fbb27e]{\r\n  background-color:#FF3250;\r\n  border-radius: 10px;\n}\n.third-project[data-v-81fbb27e]{\r\n  /* background-color:#FFBB00; */\r\n  border-radius: 10px;\n}\n.intro small[data-v-81fbb27e]{\r\n    position: relative;\r\n    bottom: -25%;\r\n    font-family: auto;\n}\nh3[data-v-81fbb27e]{\r\n  font-family: 'Courier New', Courier, monospace;\n}\r\n\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -28681,8 +28693,44 @@ var staticRenderFns = [
             _vm._v(" hello Mr lagabja "),
           ]),
           _vm._v(" "),
-          _c("p", { staticClass: "mb-4 text-white" }, [
+          _c("p", { staticClass: "my-4 text-white" }, [
             _vm._v("How have you been over there?"),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "row px-3" }, [
+            _c("div", { staticClass: "col-md-11" }, [
+              _c(
+                "form",
+                {
+                  staticClass: "form-group sidebar-form",
+                  attrs: { action: "" },
+                },
+                [
+                  _c("div", { staticClass: "input-group mb-3" }, [
+                    _c("div", { staticClass: "input-group-prepend" }, [
+                      _c(
+                        "span",
+                        {
+                          staticClass: "input-group-text",
+                          attrs: { id: "basic-addon1" },
+                        },
+                        [_vm._v("@")]
+                      ),
+                    ]),
+                    _vm._v(" "),
+                    _c("input", {
+                      staticClass: "form-control",
+                      attrs: {
+                        type: "text",
+                        placeholder: "Username",
+                        "aria-label": "Username",
+                        "aria-describedby": "basic-addon1",
+                      },
+                    }),
+                  ]),
+                ]
+              ),
+            ]),
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "row" }, [
@@ -28717,7 +28765,7 @@ var staticRenderFns = [
             ]),
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "row mt-4" }, [
+          _c("div", { staticClass: "row mt-5" }, [
             _c(
               "div",
               { staticClass: "col-md-3 m-1 bg-success first-project" },

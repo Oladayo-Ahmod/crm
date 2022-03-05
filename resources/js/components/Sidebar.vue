@@ -3,11 +3,23 @@
     <div class="row">
       <div class="col-md-5 intro">
         <h2 class="text-white"> hello Mr lagabja </h2>
-        <p class="mb-4 text-white">How have you been over there?</p>
-
+        <p class="my-4 text-white">How have you been over there?</p>
+         <div class="row px-3">
+           <div class="col-md-11">
+              <form action="" class="form-group sidebar-form">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">@</span>
+              </div>
+              <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+          </form>
+           </div>
+         </div>
          <!-- <div class="project-area"> -->
            <!-- first row -->
         <div class="row">
+          
           <div class="col-md-3 m-1 first-project">
               <h3 class="mt-5 text-center text-white">PT</h3>
               <small class="text-white">Small caption</small>
@@ -23,7 +35,7 @@
         </div>
 
         <!-- second row -->
-          <div class="row mt-4">
+          <div class="row mt-5">
             <div class="col-md-3 m-1 bg-success first-project">
                 <h3 class="mt-5 text-center text-white">PT</h3>
                 <small class="text-white">Small caption</small>
@@ -58,6 +70,13 @@ export default {
 .container{
   position: relative;
   top : 50px;
+}
+.row .col-md-3{
+  cursor: pointer;
+}
+.sidebar-form{
+  position: relative;
+  left: -28px;
 }
 .first-project{
   background-color:#0026FF;
