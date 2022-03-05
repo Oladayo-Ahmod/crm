@@ -5341,6 +5341,31 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "Sidebar"
 });
@@ -10489,7 +10514,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.first-project[data-v-81fbb27e]{\r\n  background-color:#0026FF;\r\n  border-radius: 10px;\n}\n.second-project[data-v-81fbb27e]{\r\n  background-color:#FF3250;\r\n  border-radius: 10px;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.container[data-v-81fbb27e]{\r\n  position: relative;\r\n  top : 50px;\n}\n.first-project[data-v-81fbb27e]{\r\n  background-color:#0026FF;\r\n  border-radius: 10px;\n}\n.second-project[data-v-81fbb27e]{\r\n  background-color:#FF3250;\r\n  border-radius: 10px;\n}\n.third-project[data-v-81fbb27e]{\r\n  /* background-color:#FFBB00; */\r\n  border-radius: 10px;\n}\n.intro small[data-v-81fbb27e]{\r\n    position: relative;\r\n    bottom: -25%;\r\n    font-family: auto;\n}\nh3[data-v-81fbb27e]{\r\n  font-family: 'Courier New', Courier, monospace;\n}\r\n\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -28652,20 +28677,92 @@ var staticRenderFns = [
     return _c("div", { staticClass: "container mt-5" }, [
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-md-5 intro" }, [
-          _c("h1", [_vm._v(" hello Mr lagabja , how are you doing ?")]),
+          _c("h2", { staticClass: "text-white" }, [
+            _vm._v(" hello Mr lagabja "),
+          ]),
           _vm._v(" "),
-          _c("div", { staticClass: "project-area" }, [
-            _c("div", { staticClass: "row" }, [
-              _c("div", { staticClass: "col-md-4 first-project" }, [
-                _c("h1", [_vm._v("Hi thew")]),
+          _c("p", { staticClass: "mb-4 text-white" }, [
+            _vm._v("How have you been over there?"),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-md-3 m-1 first-project" }, [
+              _c("h3", { staticClass: "mt-5 text-center text-white" }, [
+                _vm._v("PT"),
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "col-md-4 second-project" }),
+              _c("small", { staticClass: "text-white" }, [
+                _vm._v("Small caption"),
+              ]),
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-md-3 m-1 second-project" }, [
+              _c("h3", { staticClass: "mt-5 text-center text-white" }, [
+                _vm._v("PT"),
+              ]),
               _vm._v(" "),
-              _c("div", { staticClass: "col-md-4 third-project" }),
+              _c("small", { staticClass: "text-white" }, [
+                _vm._v("Small caption"),
+              ]),
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-md-3 m-1 second-project" }, [
+              _c("h3", { staticClass: "mt-5 text-center text-white" }, [
+                _vm._v("PT"),
+              ]),
+              _vm._v(" "),
+              _c("small", { staticClass: "text-white" }, [
+                _vm._v("Small caption"),
+              ]),
             ]),
           ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "row mt-4" }, [
+            _c(
+              "div",
+              { staticClass: "col-md-3 m-1 bg-success first-project" },
+              [
+                _c("h3", { staticClass: "mt-5 text-center text-white" }, [
+                  _vm._v("PT"),
+                ]),
+                _vm._v(" "),
+                _c("small", { staticClass: "text-white" }, [
+                  _vm._v("Small caption"),
+                ]),
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "col-md-3 m-1 bg-secondary second-project" },
+              [
+                _c("h3", { staticClass: "mt-5 text-center text-white" }, [
+                  _vm._v("PT"),
+                ]),
+                _vm._v(" "),
+                _c("small", { staticClass: "text-white" }, [
+                  _vm._v("Small caption"),
+                ]),
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "col-md-3 bg-primary m-1 third-project" },
+              [
+                _c("h3", { staticClass: "mt-5 text-center text-white" }, [
+                  _vm._v("PT"),
+                ]),
+                _vm._v(" "),
+                _c("small", { staticClass: "text-white" }, [
+                  _vm._v("Small caption"),
+                ]),
+              ]
+            ),
+          ]),
         ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-8" }),
       ]),
     ])
   },
