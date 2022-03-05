@@ -63,7 +63,7 @@
                 </button>
             </div>
           </div>
-          <div class="col-md-8 tasks">
+          <div class="col-md-8 tasks mb-3">
            <div class="form-check">
               <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
               <label class="form-check-label bold" for="exampleRadios1">
@@ -72,7 +72,17 @@
           </div>
 
           </div>
-          <div class="col-md-4 actions"></div>
+          <div class="col-md-4 actions ">
+            <div class="icon-container d-flex">
+              <button type="button" class="rounded-circle mx-2 btn btn-primary">
+                <i class="fas fa-edit"></i>
+              </button>
+               <button type="button" class="rounded-circle mx-2 btn btn-primary">
+                <i class="fa fa-trash" aria-hidden="true"></i>
+              </button>
+              <button type="button" class="btn btn-primary btn-rounded">Approved</button>
+            </div>
+          </div>
         </div>
       </div>   
     </div>
@@ -134,5 +144,23 @@ export default {
 }
 .bold{
   font-weight: bolder !important;
+}
+.actions button:nth-child(1),.actions button:nth-child(2){
+  width: 25px;
+  height: 25px;
+  background: #15d4a1;
+}
+.actions button:nth-child(3){
+    background: #15d4a1;
+    height: 25px;
+    border-radius: 15px;
+    font-size :10px
+
+}
+.actions button>i{
+      position: absolute;
+    left: 14%;
+    top: 20%;
+    font-size: 10px;
 }
 </style>
