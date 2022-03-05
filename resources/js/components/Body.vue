@@ -17,7 +17,7 @@ export default {
 <style>
 .body{
     background: #15172b;
-    height: 90vh;
+    height: 100vh;
     width: 90%;
     margin: 0 auto;
     border-radius: 10px;

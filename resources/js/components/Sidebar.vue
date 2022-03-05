@@ -54,36 +54,146 @@
       <div class="col-md-7 dev">
         <h3 class="text-white">Develoment CRM</h3>
         <p class="text-white mb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus nobis maiores facere mollitia non placeat!</p>
-        <div class="row">
+        <div class="row mb-3">
           <div class="col-md-12">
             <div class="row justify-contents-space-around flex-dev-head">
-               <h5 class="text-white text-left">Today's Tasks</h5>
-                <button type="button" class="text-right btn btn-success btn-sm">
+               <h5 class="text-white text-left" >Today's Tasks</h5>
+                <button type="button" style="
+    margin-top: -9px;
+    height: 30px;" class="text-right btn btn-success btn-sm">
                   <i class="fa fa-plus" aria-hidden="true"></i>
                 </button>
             </div>
           </div>
-          <div class="col-md-8 tasks mb-3">
-           <div class="form-check">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-              <label class="form-check-label bold" for="exampleRadios1">
-                Create a demo for ecommerce App
+          <div class="col-md-8 tasks mt-4">
+           <div class="form-check my-4">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label text-white" for="defaultCheck1">
+                Create a demo for ecommerce
               </label>
-          </div>
+            </div>
+
+            <div class="form-check my-4">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label text-white" for="defaultCheck1">
+                Create a demo for ecommerce
+              </label>
+            </div>
+
+            <div class="form-check my-4">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label text-white" for="defaultCheck1">
+                Create a demo for ecommerce
+              </label>
+            </div>
+
 
           </div>
-          <div class="col-md-4 actions ">
-            <div class="icon-container d-flex">
+          <div class="col-md-4 actions mt-4 ">
+            <div class="icon-container my-4 d-flex">
               <button type="button" class="rounded-circle mx-2 btn btn-primary">
                 <i class="fas fa-edit"></i>
               </button>
                <button type="button" class="rounded-circle mx-2 btn btn-primary">
-                <i class="fa fa-trash" aria-hidden="true"></i>
+                 <i class="fas fa-trash"></i>
               </button>
               <button type="button" class="btn btn-primary btn-rounded">Approved</button>
             </div>
+
+             <div class="icon-container my-4 d-flex">
+              <button type="button" class="rounded-circle mx-2 btn btn-primary">
+                <i class="fas fa-edit"></i>
+              </button>
+               <button type="button" class="rounded-circle mx-2 btn btn-primary">
+                 <i class="fas fa-trash"></i>
+              </button>
+              <button type="button" class="btn btn-primary btn-rounded">Approved</button>
+            </div>
+
+             <div class="icon-container my-4 d-flex">
+              <button type="button" class="rounded-circle mx-2 btn btn-primary">
+                <i class="fas fa-edit"></i>
+              </button>
+               <button type="button" class="rounded-circle mx-2 btn btn-primary">
+                 <i class="fas fa-trash"></i>
+              </button>
+              <button type="button" class="btn btn-primary btn-rounded">Approved</button>
+            </div>
+
           </div>
         </div>
+
+        <!-- second row of development area -->
+        <div class="row ">
+          <div class="col-md-12">
+            <div class="row justify-contents-space-around flex-dev-head">
+               <h5 class="text-white text-left" >Today's Tasks</h5>
+                <button type="button" style="
+    margin-top: -9px;
+    height: 30px;" class="text-right btn btn-success btn-sm">
+                  <i class="fa fa-plus" aria-hidden="true"></i>
+                </button>
+            </div>
+          </div>
+          <div class="col-md-8 tasks mt-4">
+           <div class="form-check my-4">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label text-white" for="defaultCheck1">
+                Create a demo for ecommerce
+              </label>
+            </div>
+
+            <div class="form-check my-4">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label text-white" for="defaultCheck1">
+                Create a demo for ecommerce
+              </label>
+            </div>
+
+            <div class="form-check my-4">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label text-white" for="defaultCheck1">
+                Create a demo for ecommerce
+              </label>
+            </div>
+
+
+          </div>
+          <div class="col-md-4 actions mt-4 ">
+            <div class="icon-container my-4 d-flex">
+              <button type="button" class="rounded-circle mx-2 btn btn-primary">
+                <i class="fas fa-edit"></i>
+              </button>
+               <button type="button" class="rounded-circle mx-2 btn btn-primary">
+                 <i class="fas fa-trash"></i>
+              </button>
+              <button type="button" class="btn btn-primary btn-rounded">Approved</button>
+            </div>
+
+             <div class="icon-container my-4 d-flex">
+              <button type="button" class="rounded-circle mx-2 btn btn-primary">
+                <i class="fas fa-edit"></i>
+              </button>
+               <button type="button" class="rounded-circle mx-2 btn btn-primary">
+                 <i class="fas fa-trash"></i>
+              </button>
+              <button type="button" class="btn btn-primary btn-rounded">Approved</button>
+            </div>
+
+             <div class="icon-container my-4 d-flex">
+              <button type="button" class="rounded-circle mx-2 btn btn-primary">
+                <i class="fas fa-edit"></i>
+              </button>
+               <button type="button" class="rounded-circle mx-2 btn btn-primary">
+                 <i class="fas fa-trash"></i>
+              </button>
+              <button type="button" class="btn btn-primary btn-rounded">Approved</button>
+            </div>
+
+          </div>
+        </div>
+
+        
       </div>   
     </div>
       
@@ -142,6 +252,7 @@ export default {
   display: flex;
   justify-content: space-between;
 }
+
 .bold{
   font-weight: bolder !important;
 }
@@ -157,10 +268,16 @@ export default {
     font-size :10px
 
 }
-.actions button>i{
-      position: absolute;
-    left: 14%;
-    top: 20%;
+.actions button:nth-child(1) i{
+      position: relative;
+    left: -4px;
+    bottom: 7px;
+    font-size: 10px;
+}
+.actions button:nth-child(2) i{
+      position: relative;
+    left: -4px;
+    bottom: 7px;
     font-size: 10px;
 }
 </style>
