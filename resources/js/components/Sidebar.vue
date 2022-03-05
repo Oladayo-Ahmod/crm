@@ -80,6 +80,10 @@ export default {
 .sidebar-form input{
   background: #8ab5db !important;
 }
+::placeholder{
+  color: white !important;
+  font-family: auto;
+}
 .sidebar-form #basic-addon1{
   background: #8ab5db !important;
 }
