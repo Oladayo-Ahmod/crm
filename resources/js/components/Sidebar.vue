@@ -9,9 +9,9 @@
               <form action="" class="form-group sidebar-form">
             <div class="input-group mb-3">
               <div class="input-group-prepend">
-                <span class="input-group-text" id="basic-addon1">@</span>
+                <span class="input-group-text text-white" id="basic-addon1">@</span>
               </div>
-              <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+              <input type="text" class="form-control text-white" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
             </div>
           </form>
            </div>
@@ -19,7 +19,6 @@
          <!-- <div class="project-area"> -->
            <!-- first row -->
         <div class="row">
-          
           <div class="col-md-3 m-1 first-project">
               <h3 class="mt-5 text-center text-white">PT</h3>
               <small class="text-white">Small caption</small>
@@ -77,6 +76,12 @@ export default {
 .sidebar-form{
   position: relative;
   left: -28px;
+}
+.sidebar-form input{
+  background: #8ab5db !important;
+}
+.sidebar-form #basic-addon1{
+  background: #8ab5db !important;
 }
 .first-project{
   background-color:#0026FF;

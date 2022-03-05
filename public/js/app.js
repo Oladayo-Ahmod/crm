@@ -5377,7 +5377,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "Sidebar"
 });
@@ -10526,7 +10525,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.container[data-v-81fbb27e]{\r\n  position: relative;\r\n  top : 50px;\n}\n.row .col-md-3[data-v-81fbb27e]{\r\n  cursor: pointer;\n}\n.sidebar-form[data-v-81fbb27e]{\r\n  position: relative;\r\n  left: -28px;\n}\n.first-project[data-v-81fbb27e]{\r\n  background-color:#0026FF;\r\n  border-radius: 10px;\n}\n.second-project[data-v-81fbb27e]{\r\n  background-color:#FF3250;\r\n  border-radius: 10px;\n}\n.third-project[data-v-81fbb27e]{\r\n  /* background-color:#FFBB00; */\r\n  border-radius: 10px;\n}\n.intro small[data-v-81fbb27e]{\r\n    position: relative;\r\n    bottom: -25%;\r\n    font-family: auto;\n}\nh3[data-v-81fbb27e]{\r\n  font-family: 'Courier New', Courier, monospace;\n}\r\n\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.container[data-v-81fbb27e]{\r\n  position: relative;\r\n  top : 50px;\n}\n.row .col-md-3[data-v-81fbb27e]{\r\n  cursor: pointer;\n}\n.sidebar-form[data-v-81fbb27e]{\r\n  position: relative;\r\n  left: -28px;\n}\n.sidebar-form input[data-v-81fbb27e]{\r\n  background: #8ab5db !important;\n}\n.sidebar-form #basic-addon1[data-v-81fbb27e]{\r\n  background: #8ab5db !important;\n}\n.first-project[data-v-81fbb27e]{\r\n  background-color:#0026FF;\r\n  border-radius: 10px;\n}\n.second-project[data-v-81fbb27e]{\r\n  background-color:#FF3250;\r\n  border-radius: 10px;\n}\n.third-project[data-v-81fbb27e]{\r\n  /* background-color:#FFBB00; */\r\n  border-radius: 10px;\n}\n.intro small[data-v-81fbb27e]{\r\n    position: relative;\r\n    bottom: -25%;\r\n    font-family: auto;\n}\nh3[data-v-81fbb27e]{\r\n  font-family: 'Courier New', Courier, monospace;\n}\r\n\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -28711,7 +28710,7 @@ var staticRenderFns = [
                       _c(
                         "span",
                         {
-                          staticClass: "input-group-text",
+                          staticClass: "input-group-text text-white",
                           attrs: { id: "basic-addon1" },
                         },
                         [_vm._v("@")]
@@ -28719,7 +28718,7 @@ var staticRenderFns = [
                     ]),
                     _vm._v(" "),
                     _c("input", {
-                      staticClass: "form-control",
+                      staticClass: "form-control text-white",
                       attrs: {
                         type: "text",
                         placeholder: "Username",
