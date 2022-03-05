@@ -66,21 +66,21 @@
             </div>
           </div>
           <div class="col-md-8 tasks mt-4">
-           <div class="form-check my-4">
+           <div class="form-check my-2">
               <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
               <label class="form-check-label text-white" for="defaultCheck1">
                 Create a demo for ecommerce
               </label>
             </div>
 
-            <div class="form-check my-4">
+            <div class="form-check my-2">
               <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
               <label class="form-check-label text-white" for="defaultCheck1">
                 Create a demo for ecommerce
               </label>
             </div>
 
-            <div class="form-check my-4">
+            <div class="form-check my-2">
               <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
               <label class="form-check-label text-white" for="defaultCheck1">
                 Create a demo for ecommerce
@@ -90,7 +90,7 @@
 
           </div>
           <div class="col-md-4 actions mt-4 ">
-            <div class="icon-container my-4 d-flex">
+            <div class="icon-container my-2 d-flex">
               <button type="button" class="rounded-circle mx-2 btn btn-primary">
                 <i class="fas fa-edit"></i>
               </button>
@@ -100,7 +100,7 @@
               <button type="button" class="btn btn-primary btn-rounded">Approved</button>
             </div>
 
-             <div class="icon-container my-4 d-flex">
+             <div class="icon-container my-2 d-flex">
               <button type="button" class="rounded-circle mx-2 btn btn-primary">
                 <i class="fas fa-edit"></i>
               </button>
@@ -110,7 +110,7 @@
               <button type="button" class="btn btn-primary btn-rounded">Approved</button>
             </div>
 
-             <div class="icon-container my-4 d-flex">
+             <div class="icon-container my-2 d-flex">
               <button type="button" class="rounded-circle mx-2 btn btn-primary">
                 <i class="fas fa-edit"></i>
               </button>
@@ -127,7 +127,7 @@
         <div class="row ">
           <div class="col-md-12">
             <div class="row justify-contents-space-around flex-dev-head">
-               <h5 class="text-white text-left" >Today's Tasks</h5>
+               <h5 class="text-white text-left" >Upcoming Tasks</h5>
                 <button type="button" style="
     margin-top: -9px;
     height: 30px;" class="text-right btn btn-success btn-sm">
@@ -136,21 +136,21 @@
             </div>
           </div>
           <div class="col-md-8 tasks mt-4">
-           <div class="form-check my-4">
+           <div class="form-check my-2">
               <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
               <label class="form-check-label text-white" for="defaultCheck1">
                 Create a demo for ecommerce
               </label>
             </div>
 
-            <div class="form-check my-4">
+            <div class="form-check my-2">
               <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
               <label class="form-check-label text-white" for="defaultCheck1">
                 Create a demo for ecommerce
               </label>
             </div>
 
-            <div class="form-check my-4">
+            <div class="form-check my-2">
               <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
               <label class="form-check-label text-white" for="defaultCheck1">
                 Create a demo for ecommerce
@@ -160,7 +160,7 @@
 
           </div>
           <div class="col-md-4 actions mt-4 ">
-            <div class="icon-container my-4 d-flex">
+            <div class="icon-container my-2 d-flex">
               <button type="button" class="rounded-circle mx-2 btn btn-primary">
                 <i class="fas fa-edit"></i>
               </button>
@@ -170,7 +170,7 @@
               <button type="button" class="btn btn-primary btn-rounded">Approved</button>
             </div>
 
-             <div class="icon-container my-4 d-flex">
+             <div class="icon-container my-2 d-flex">
               <button type="button" class="rounded-circle mx-2 btn btn-primary">
                 <i class="fas fa-edit"></i>
               </button>
@@ -180,7 +180,7 @@
               <button type="button" class="btn btn-primary btn-rounded">Approved</button>
             </div>
 
-             <div class="icon-container my-4 d-flex">
+             <div class="icon-container my-2 d-flex">
               <button type="button" class="rounded-circle mx-2 btn btn-primary">
                 <i class="fas fa-edit"></i>
               </button>
@@ -193,7 +193,7 @@
           </div>
         </div>
 
-        
+
       </div>   
     </div>
       
@@ -279,5 +279,10 @@ export default {
     left: -4px;
     bottom: 7px;
     font-size: 10px;
+}
+p,h2{
+  font-family: 'League Gothic', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Shizuru';
 }
 </style>

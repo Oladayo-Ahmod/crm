@@ -10642,7 +10642,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.body{\r\n    background: #15172b;\r\n    height: 100vh;\r\n    width: 90%;\r\n    margin: 0 auto;\r\n    border-radius: 10px;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n/* @import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Roboto+Condensed:ital@1&family=Shizuru&display=swap'); */\n.body{\r\n    background: #15172b;\r\n    height: 100vh;\r\n    width: 90%;\r\n    margin: 0 auto;\r\n    border-radius: 10px;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -10666,7 +10666,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.container[data-v-81fbb27e]{\r\n  position: relative;\r\n  top : 50px;\n}\n.row .col-md-3[data-v-81fbb27e]{\r\n  cursor: pointer;\n}\n.sidebar-form[data-v-81fbb27e]{\r\n  position: relative;\r\n  left: -28px;\n}\n.sidebar-form input[data-v-81fbb27e]{\r\n  background: #8ab5db !important;\n}\n[data-v-81fbb27e]::-moz-placeholder{\r\n  color: white !important;\r\n  font-family: auto;\n}\n[data-v-81fbb27e]:-ms-input-placeholder{\r\n  color: white !important;\r\n  font-family: auto;\n}\n[data-v-81fbb27e]::placeholder{\r\n  color: white !important;\r\n  font-family: auto;\n}\n.sidebar-form #basic-addon1[data-v-81fbb27e]{\r\n  background: #8ab5db !important;\n}\n.first-project[data-v-81fbb27e]{\r\n  background-color:#0026FF;\r\n  border-radius: 10px;\n}\n.second-project[data-v-81fbb27e]{\r\n  background-color:#FF3250;\r\n  border-radius: 10px;\n}\n.third-project[data-v-81fbb27e]{\r\n  /* background-color:#FFBB00; */\r\n  border-radius: 10px;\n}\n.intro small[data-v-81fbb27e]{\r\n    position: relative;\r\n    bottom: -25%;\r\n    font-family: auto;\n}\n.intro h3[data-v-81fbb27e]{\r\n  font-family: 'Courier New', Courier, monospace;\n}\n.flex-dev-head[data-v-81fbb27e]{\r\n  display: flex;\r\n  justify-content: space-between;\n}\n.bold[data-v-81fbb27e]{\r\n  font-weight: bolder !important;\n}\n.actions button[data-v-81fbb27e]:nth-child(1),.actions button[data-v-81fbb27e]:nth-child(2){\r\n  width: 25px;\r\n  height: 25px;\r\n  background: #15d4a1;\n}\n.actions button[data-v-81fbb27e]:nth-child(3){\r\n    background: #15d4a1;\r\n    height: 25px;\r\n    border-radius: 15px;\r\n    font-size :10px\n}\n.actions button:nth-child(1) i[data-v-81fbb27e]{\r\n      position: relative;\r\n    left: -4px;\r\n    bottom: 7px;\r\n    font-size: 10px;\n}\n.actions button:nth-child(2) i[data-v-81fbb27e]{\r\n      position: relative;\r\n    left: -4px;\r\n    bottom: 7px;\r\n    font-size: 10px;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.container[data-v-81fbb27e]{\r\n  position: relative;\r\n  top : 50px;\n}\n.row .col-md-3[data-v-81fbb27e]{\r\n  cursor: pointer;\n}\n.sidebar-form[data-v-81fbb27e]{\r\n  position: relative;\r\n  left: -28px;\n}\n.sidebar-form input[data-v-81fbb27e]{\r\n  background: #8ab5db !important;\n}\n[data-v-81fbb27e]::-moz-placeholder{\r\n  color: white !important;\r\n  font-family: auto;\n}\n[data-v-81fbb27e]:-ms-input-placeholder{\r\n  color: white !important;\r\n  font-family: auto;\n}\n[data-v-81fbb27e]::placeholder{\r\n  color: white !important;\r\n  font-family: auto;\n}\n.sidebar-form #basic-addon1[data-v-81fbb27e]{\r\n  background: #8ab5db !important;\n}\n.first-project[data-v-81fbb27e]{\r\n  background-color:#0026FF;\r\n  border-radius: 10px;\n}\n.second-project[data-v-81fbb27e]{\r\n  background-color:#FF3250;\r\n  border-radius: 10px;\n}\n.third-project[data-v-81fbb27e]{\r\n  /* background-color:#FFBB00; */\r\n  border-radius: 10px;\n}\n.intro small[data-v-81fbb27e]{\r\n    position: relative;\r\n    bottom: -25%;\r\n    font-family: auto;\n}\n.intro h3[data-v-81fbb27e]{\r\n  font-family: 'Courier New', Courier, monospace;\n}\n.flex-dev-head[data-v-81fbb27e]{\r\n  display: flex;\r\n  justify-content: space-between;\n}\n.bold[data-v-81fbb27e]{\r\n  font-weight: bolder !important;\n}\n.actions button[data-v-81fbb27e]:nth-child(1),.actions button[data-v-81fbb27e]:nth-child(2){\r\n  width: 25px;\r\n  height: 25px;\r\n  background: #15d4a1;\n}\n.actions button[data-v-81fbb27e]:nth-child(3){\r\n    background: #15d4a1;\r\n    height: 25px;\r\n    border-radius: 15px;\r\n    font-size :10px\n}\n.actions button:nth-child(1) i[data-v-81fbb27e]{\r\n      position: relative;\r\n    left: -4px;\r\n    bottom: 7px;\r\n    font-size: 10px;\n}\n.actions button:nth-child(2) i[data-v-81fbb27e]{\r\n      position: relative;\r\n    left: -4px;\r\n    bottom: 7px;\r\n    font-size: 10px;\n}\np[data-v-81fbb27e],h2[data-v-81fbb27e]{\r\n  font-family: 'League Gothic', sans-serif;\r\nfont-family: 'Roboto Condensed', sans-serif;\r\nfont-family: 'Shizuru';\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -28996,7 +28996,7 @@ var staticRenderFns = [
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "col-md-8 tasks mt-4" }, [
-              _c("div", { staticClass: "form-check my-4" }, [
+              _c("div", { staticClass: "form-check my-2" }, [
                 _c("input", {
                   staticClass: "form-check-input",
                   attrs: { type: "checkbox", value: "", id: "defaultCheck1" },
@@ -29016,7 +29016,7 @@ var staticRenderFns = [
                 ),
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "form-check my-4" }, [
+              _c("div", { staticClass: "form-check my-2" }, [
                 _c("input", {
                   staticClass: "form-check-input",
                   attrs: { type: "checkbox", value: "", id: "defaultCheck1" },
@@ -29036,7 +29036,7 @@ var staticRenderFns = [
                 ),
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "form-check my-4" }, [
+              _c("div", { staticClass: "form-check my-2" }, [
                 _c("input", {
                   staticClass: "form-check-input",
                   attrs: { type: "checkbox", value: "", id: "defaultCheck1" },
@@ -29058,7 +29058,7 @@ var staticRenderFns = [
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "col-md-4 actions mt-4 " }, [
-              _c("div", { staticClass: "icon-container my-4 d-flex" }, [
+              _c("div", { staticClass: "icon-container my-2 d-flex" }, [
                 _c(
                   "button",
                   {
@@ -29087,7 +29087,7 @@ var staticRenderFns = [
                 ),
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "icon-container my-4 d-flex" }, [
+              _c("div", { staticClass: "icon-container my-2 d-flex" }, [
                 _c(
                   "button",
                   {
@@ -29116,7 +29116,7 @@ var staticRenderFns = [
                 ),
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "icon-container my-4 d-flex" }, [
+              _c("div", { staticClass: "icon-container my-2 d-flex" }, [
                 _c(
                   "button",
                   {
@@ -29157,7 +29157,7 @@ var staticRenderFns = [
                 },
                 [
                   _c("h5", { staticClass: "text-white text-left" }, [
-                    _vm._v("Today's Tasks"),
+                    _vm._v("Upcoming Tasks"),
                   ]),
                   _vm._v(" "),
                   _c(
@@ -29179,7 +29179,7 @@ var staticRenderFns = [
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "col-md-8 tasks mt-4" }, [
-              _c("div", { staticClass: "form-check my-4" }, [
+              _c("div", { staticClass: "form-check my-2" }, [
                 _c("input", {
                   staticClass: "form-check-input",
                   attrs: { type: "checkbox", value: "", id: "defaultCheck1" },
@@ -29199,7 +29199,7 @@ var staticRenderFns = [
                 ),
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "form-check my-4" }, [
+              _c("div", { staticClass: "form-check my-2" }, [
                 _c("input", {
                   staticClass: "form-check-input",
                   attrs: { type: "checkbox", value: "", id: "defaultCheck1" },
@@ -29219,7 +29219,7 @@ var staticRenderFns = [
                 ),
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "form-check my-4" }, [
+              _c("div", { staticClass: "form-check my-2" }, [
                 _c("input", {
                   staticClass: "form-check-input",
                   attrs: { type: "checkbox", value: "", id: "defaultCheck1" },
@@ -29241,7 +29241,7 @@ var staticRenderFns = [
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "col-md-4 actions mt-4 " }, [
-              _c("div", { staticClass: "icon-container my-4 d-flex" }, [
+              _c("div", { staticClass: "icon-container my-2 d-flex" }, [
                 _c(
                   "button",
                   {
@@ -29270,7 +29270,7 @@ var staticRenderFns = [
                 ),
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "icon-container my-4 d-flex" }, [
+              _c("div", { staticClass: "icon-container my-2 d-flex" }, [
                 _c(
                   "button",
                   {
@@ -29299,7 +29299,7 @@ var staticRenderFns = [
                 ),
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "icon-container my-4 d-flex" }, [
+              _c("div", { staticClass: "icon-container my-2 d-flex" }, [
                 _c(
                   "button",
                   {

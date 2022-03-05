@@ -15,6 +15,7 @@ export default {
 </script>
 
 <style>
+/* @import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Roboto+Condensed:ital@1&family=Shizuru&display=swap'); */
 .body{
     background: #15172b;
     height: 100vh;
