@@ -9,7 +9,7 @@
               <form action="" class="form-group sidebar-form">
             <div class="input-group mb-3">
               <div class="input-group-prepend">
-                <span class="input-group-text text-white" id="basic-addon1"><i class="fa fa-search" aria-hidden="true"></i></span> 
+                <span class="input-group-text text-secondary" id="basic-addon1"><i class="fa fa-search" aria-hidden="true"></i></span> 
               </div>
               <input type="text" class="form-control text-white" placeholder="search your project or task" aria-label="Username" aria-describedby="basic-addon1">
             </div>
@@ -51,8 +51,23 @@
       <!-- </div> -->
           </div>
 
-      <div class="col-md-8">
-        
+      <div class="col-md-7 dev">
+        <h3 class="text-white">Develoment CRM</h3>
+        <p class="text-white mb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus nobis maiores facere mollitia non placeat!</p>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="row justify-contents-space-around flex-dev-head">
+               <h5 class="text-white text-left">Today's Tasks</h5>
+                <button type="button" class="text-right btn btn-success btn-sm">
+                  <i class="fa fa-plus" aria-hidden="true"></i>
+                </button>
+            </div>
+          </div>
+          <div class="col-md-8">
+
+          </div>
+          <div class="col-md-4"></div>
+        </div>
       </div>   
     </div>
       
@@ -104,8 +119,11 @@ export default {
     bottom: -25%;
     font-family: auto;
 }
-h3{
+.intro h3{
   font-family: 'Courier New', Courier, monospace;
 }
-
+.flex-dev-head{
+  display: flex;
+  justify-content: space-between;
+}
 </style>

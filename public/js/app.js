@@ -5377,6 +5377,21 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "Sidebar"
 });
@@ -10525,7 +10540,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.container[data-v-81fbb27e]{\r\n  position: relative;\r\n  top : 50px;\n}\n.row .col-md-3[data-v-81fbb27e]{\r\n  cursor: pointer;\n}\n.sidebar-form[data-v-81fbb27e]{\r\n  position: relative;\r\n  left: -28px;\n}\n.sidebar-form input[data-v-81fbb27e]{\r\n  background: #8ab5db !important;\n}\n[data-v-81fbb27e]::-moz-placeholder{\r\n  color: white !important;\r\n  font-family: auto;\n}\n[data-v-81fbb27e]:-ms-input-placeholder{\r\n  color: white !important;\r\n  font-family: auto;\n}\n[data-v-81fbb27e]::placeholder{\r\n  color: white !important;\r\n  font-family: auto;\n}\n.sidebar-form #basic-addon1[data-v-81fbb27e]{\r\n  background: #8ab5db !important;\n}\n.first-project[data-v-81fbb27e]{\r\n  background-color:#0026FF;\r\n  border-radius: 10px;\n}\n.second-project[data-v-81fbb27e]{\r\n  background-color:#FF3250;\r\n  border-radius: 10px;\n}\n.third-project[data-v-81fbb27e]{\r\n  /* background-color:#FFBB00; */\r\n  border-radius: 10px;\n}\n.intro small[data-v-81fbb27e]{\r\n    position: relative;\r\n    bottom: -25%;\r\n    font-family: auto;\n}\nh3[data-v-81fbb27e]{\r\n  font-family: 'Courier New', Courier, monospace;\n}\r\n\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.container[data-v-81fbb27e]{\r\n  position: relative;\r\n  top : 50px;\n}\n.row .col-md-3[data-v-81fbb27e]{\r\n  cursor: pointer;\n}\n.sidebar-form[data-v-81fbb27e]{\r\n  position: relative;\r\n  left: -28px;\n}\n.sidebar-form input[data-v-81fbb27e]{\r\n  background: #8ab5db !important;\n}\n[data-v-81fbb27e]::-moz-placeholder{\r\n  color: white !important;\r\n  font-family: auto;\n}\n[data-v-81fbb27e]:-ms-input-placeholder{\r\n  color: white !important;\r\n  font-family: auto;\n}\n[data-v-81fbb27e]::placeholder{\r\n  color: white !important;\r\n  font-family: auto;\n}\n.sidebar-form #basic-addon1[data-v-81fbb27e]{\r\n  background: #8ab5db !important;\n}\n.first-project[data-v-81fbb27e]{\r\n  background-color:#0026FF;\r\n  border-radius: 10px;\n}\n.second-project[data-v-81fbb27e]{\r\n  background-color:#FF3250;\r\n  border-radius: 10px;\n}\n.third-project[data-v-81fbb27e]{\r\n  /* background-color:#FFBB00; */\r\n  border-radius: 10px;\n}\n.intro small[data-v-81fbb27e]{\r\n    position: relative;\r\n    bottom: -25%;\r\n    font-family: auto;\n}\n.intro h3[data-v-81fbb27e]{\r\n  font-family: 'Courier New', Courier, monospace;\n}\n.flex-dev-head[data-v-81fbb27e]{\r\n  display: flex;\r\n  justify-content: space-between;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -28710,7 +28725,7 @@ var staticRenderFns = [
                       _c(
                         "span",
                         {
-                          staticClass: "input-group-text text-white",
+                          staticClass: "input-group-text text-secondary",
                           attrs: { id: "basic-addon1" },
                         },
                         [
@@ -28814,7 +28829,50 @@ var staticRenderFns = [
           ]),
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "col-md-8" }),
+        _c("div", { staticClass: "col-md-7 dev" }, [
+          _c("h3", { staticClass: "text-white" }, [_vm._v("Develoment CRM")]),
+          _vm._v(" "),
+          _c("p", { staticClass: "text-white mb-3" }, [
+            _vm._v(
+              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus nobis maiores facere mollitia non placeat!"
+            ),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-md-12" }, [
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "row justify-contents-space-around flex-dev-head",
+                },
+                [
+                  _c("h5", { staticClass: "text-white text-left" }, [
+                    _vm._v("Today's Tasks"),
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "button",
+                    {
+                      staticClass: "text-right btn btn-success btn-sm",
+                      attrs: { type: "button" },
+                    },
+                    [
+                      _c("i", {
+                        staticClass: "fa fa-plus",
+                        attrs: { "aria-hidden": "true" },
+                      }),
+                    ]
+                  ),
+                ]
+              ),
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-md-8" }),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-md-4" }),
+          ]),
+        ]),
       ]),
     ])
   },
