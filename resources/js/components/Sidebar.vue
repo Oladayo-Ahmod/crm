@@ -11,7 +11,7 @@
               <div class="input-group-prepend">
                 <span class="input-group-text text-white" id="basic-addon1">@</span>
               </div>
-              <input type="text" class="form-control text-white" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+              <input type="text" class="form-control text-white" placeholder="search your project or task" aria-label="Username" aria-describedby="basic-addon1">
             </div>
           </form>
            </div>

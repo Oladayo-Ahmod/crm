@@ -28721,7 +28721,7 @@ var staticRenderFns = [
                       staticClass: "form-control text-white",
                       attrs: {
                         type: "text",
-                        placeholder: "Username",
+                        placeholder: "search your project or task",
                         "aria-label": "Username",
                         "aria-describedby": "basic-addon1",
                       },
