@@ -63,10 +63,16 @@
                 </button>
             </div>
           </div>
-          <div class="col-md-8">
+          <div class="col-md-8 tasks">
+           <div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+              <label class="form-check-label bold" for="exampleRadios1">
+                Create a demo for ecommerce App
+              </label>
+          </div>
 
           </div>
-          <div class="col-md-4"></div>
+          <div class="col-md-4 actions"></div>
         </div>
       </div>   
     </div>
@@ -125,5 +131,8 @@ export default {
 .flex-dev-head{
   display: flex;
   justify-content: space-between;
+}
+.bold{
+  font-weight: bolder !important;
 }
 </style>
